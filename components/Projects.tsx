@@ -8,8 +8,8 @@ const projects: Project[] = [
   {
     id: 1,
     title: 'ApakabarTangsel',
-    description: 'Portal berita digital lokal yang fokus menyajikan informasi terkini dan terpercaya seputar Tangerang Selatan.',
-    longDescription: History of ApakabarTangsel
+    description: 'A local digital news platform dedicated to providing up-to-date and reliable information about South Tangerang.',
+    longDescription: `History of ApakabarTangsel
 
 ApakabarTangsel was born in 2026 from a simple idea born out of concern over the lack of local news portals that truly focus on delivering information about South Tangerang. The name "ApakabarTangsel" was chosen because it reflects familiarity and closeness to the community, where the phrase "Apa kabar" (How are you) conveys a relaxed yet warm atmosphere in delivering news.
 
@@ -20,52 +20,116 @@ Today, ApakabarTangsel has transformed into an independent news portal that has 
 Website: https://www.apakabartangsel.com
 Email: redaksi@apakabartangsel.com
 Tangerang Selatan, Banten`,
-    tech: ['PHP Native', 'MySQL', 'Tailwind CSS', 'JavaScript', 'TinyMCE', 'Chart.js'],
+    tech: ['PHP Native', 'MySQL', 'Tailwind CSS', 'JavaScript'],
     category: 'News Portal',
     year: '2026',
     demoUrl: 'https://www.apakabartangsel.com',
     githubUrl: '#',
-    gradient: 'linear-gradient(135deg, #0F3B3C, #E67E22)',
-    images: ['/images/projects/apakabar1.jpg', '/images/projects/apakabar2.jpg', '/images/projects/apakabar3.jpg'],
+    gradient: 'linear-gradient(135deg, #00B4D8, #0077B6)',
+    images: ['/apakabar1.jpg', '/apakabar2.jpg', '/apakabar3.jpg'],
   },
   {
     id: 2,
-    title: 'AuraChat',
-    description: 'Aplikasi chat real-time dengan enkripsi end-to-end, support grup, file sharing, dan notifikasi push.',
-    longDescription: 'AuraChat adalah messaging platform modern yang dibangun dengan arsitektur event-driven menggunakan Socket.io dan Node.js. Fitur utama meliputi enkripsi end-to-end dengan Web Crypto API, grup chat dengan permission management, file sharing hingga 100MB, video call via WebRTC, reaction emoji, dan sistem notifikasi push yang efisien. UI dibangun dengan React dan animasi Framer Motion. Aplikasi ini mampu menangani 10,000+ koneksi simultan dengan latency di bawah 100ms.',
-    tech: ['React', 'Socket.io', 'Node.js', 'PostgreSQL', 'WebRTC', 'Redis', 'Tailwind'],
-    category: 'Real-Time App',
-    year: '2024',
-    demoUrl: '#',
+    title: 'GreenLiteSpace',
+    description: 'Sustainable green libraries for communities and public spaces.',
+    longDescription: `History of GreenLiteSpace
+
+GreenLiteSpace was born in 2025 from a simple idea born out of concern over the lack of eco-friendly reading spaces that truly focus on sustainability and community needs. The name "GreenLiteSpace" was chosen because it reflects a combination of green environmental values and light, welcoming library spaces that are accessible to everyone.
+
+Starting from a small team of just three environmental design enthusiasts, they worked from a modest workshop, helping local communities build green libraries using recycled materials and energy-efficient concepts. Entering its second year of operation, GreenLiteSpace began to attract the attention of various communities and public institutions, growing from a small initiative to a trusted service provider.
+
+Today, GreenLiteSpace has transformed into a professional service that has become a trusted partner for communities and public spaces looking to create sustainable libraries. With the tagline **#GreenReadGreenFuture**, GreenLiteSpace is present not just as a service provider, but as a partner to the community in creating eco-friendly, energy-efficient, and sustainable reading spaces for a better future.
+
+Website: https://greenlitespacesz.vercel.app
+Email: hello@greenlitespace.com
+Tangerang Selatan, Banten`,
+    tech: ['React', 'Node.js', 'PostgreSQL', 'Supabase', 'Tailwind'],
+    category: 'Green Library',
+    year: '2025',
+    demoUrl: 'https://greenlitespacesz.vercel.app/',
     githubUrl: '#',
-    gradient: 'linear-gradient(135deg, #00f0ff, #00ff88)',
-    images: ['/images/projects/aura1.jpg', '/images/projects/aura2.jpg', '/images/projects/aura3.jpg'],
+    gradient: 'linear-gradient(135deg, #2E7D32, #81C784)',
+    images: ['/green1.jpg', '/green2.jpg', '/green3.jpg', '/green4.jpg'],
   },
   {
     id: 3,
-    title: 'VisualizeAI',
-    description: 'Dashboard data visualization interaktif dengan 3D charts menggunakan Three.js dan integrasi AI untuk insight otomatis.',
-    longDescription: 'VisualizeAI menghadirkan pengalaman data visualization yang imersif dengan Three.js dan D3.js. Platform ini memungkinkan import data dari berbagai sumber (CSV, JSON, API), visualisasi 3D interaktif, AI-powered insight menggunakan OpenAI API, export chart dalam berbagai format, kolaborasi real-time, dan template dashboard yang siap pakai.',
-    tech: ['React', 'Three.js', 'Python', 'PostgreSQL', 'OpenAI API', 'D3.js', 'FastAPI'],
-    category: 'Data Viz',
-    year: '2023',
-    demoUrl: '#',
+    title: 'Aksara&Co',
+    description: 'Strategic public relations and corporate communications agency building strong brand narratives.',
+    longDescription: `History of Aksara&Co
+
+Aksara&Co was born from a simple idea born out of concern over the lack of strategic communication services that truly understand brand narratives and public trust in Indonesia. The name "Aksara&Co" reflects a commitment to strategic communication and corporate reputation management.
+
+Starting from a small team of just three public relations professionals, they worked with local businesses to build credible brand stories and media relationships. Entering its first year of operation, Aksara&Co began to attract the attention of corporate clients, growing from small businesses to major companies across various industries.
+
+Today, Aksara&Co has transformed into a trusted public relations agency that has become a strategic partner for brands looking to build strong public trust. With services including Corporate Communications, Digital Public Relations, and Event & Brand Activation, Aksara&Co is present not just as a service provider, but as a partner in building lasting brand narratives and meaningful public relationships.
+
+Website: https://aksara-co.vercel.app
+Email: hello@aksaraco.com
+Jakarta, Indonesia`,
+    tech: ['React', 'Tailwind', 'Framer Motion', 'EmailJS'],
+    category: 'Public Relations',
+    year: '2026',
+    demoUrl: 'https://aksara-co.vercel.app/',
     githubUrl: '#',
-    gradient: 'linear-gradient(135deg, #ff6b00, #ff0080)',
-    images: ['/images/projects/viz1.jpg', '/images/projects/viz2.jpg', '/images/projects/viz3.jpg'],
+    gradient: 'linear-gradient(135deg, #8B0000, #D32F2F)',
+    images: ['/aksara1.jpg', '/aksara2.jpg', '/aksara3.jpg', '/aksara4.jpg'],
   },
   {
     id: 4,
+    title: 'NexaCommerce',
+    description: 'Modern e-commerce platform with real-time inventory, AI product recommendations, and advanced sales analytics.',
+    longDescription: `History of NexaCommerce
+
+NexaCommerce was born from the need for a scalable, feature-rich e-commerce solution that integrates modern technologies like AI and real-time data processing. The platform was designed to help merchants manage inventory dynamically and provide personalized shopping experiences.
+
+Developed with Next.js and Node.js, NexaCommerce offers real-time inventory updates via WebSockets, AI-driven product recommendations using TensorFlow.js, and an interactive analytics dashboard. The system also features secure JWT authentication and a comprehensive admin panel.
+
+Today, NexaCommerce serves 50+ merchants and processes thousands of transactions daily, making it a trusted choice for businesses looking to scale their online presence.`,
+    tech: ['Next.js', 'Node.js', 'MongoDB', 'Redis', 'Docker', 'WebSocket'],
+    category: 'E-Commerce',
+    year: '2024',
+    demoUrl: '#',
+    githubUrl: '#',
+    gradient: 'linear-gradient(135deg, #6A11CB, #2575FC)',
+    images: ['/nexa1.jpg', '/nexa2.jpg', '/nexa3.jpg'],
+  },
+  {
+    id: 5,
     title: 'DevFlow',
-    description: 'Project management tool untuk developer dengan kanban board, code review integration, CI/CD pipeline monitor.',
-    longDescription: 'DevFlow adalah tools manajemen proyek yang dirancang khusus untuk tim developer. Menampilkan kanban board dengan drag-and-drop, integrasi langsung dengan GitHub untuk code review, monitoring CI/CD pipeline, time tracking, sprint planning dengan burndown chart, dokumentasi wiki terintegrasi, dan Slack notification.',
-    tech: ['Next.js', 'TypeScript', 'Tailwind', 'PostgreSQL', 'Docker', 'GitHub API', 'Prisma'],
+    description: 'Project management tool for developers with kanban board, code review integration, and CI/CD pipeline monitoring.',
+    longDescription: `History of DevFlow
+
+DevFlow was created to address the fragmentation of tools used by development teams. Combining project management, code review, and CI/CD monitoring into one platform, DevFlow streamlines the entire development workflow.
+
+The platform features drag-and-drop kanban boards, direct GitHub integration for seamless code reviews, real-time CI/CD pipeline monitoring, time tracking, sprint planning with burndown charts, and integrated wiki documentation. Built with Next.js and TypeScript, DevFlow is scalable and secure.
+
+Today, DevFlow is used by 30+ development teams across Indonesia, helping them ship better code faster.`,
+    tech: ['Next.js', 'TypeScript', 'Tailwind', 'PostgreSQL', 'Prisma', 'GitHub API'],
     category: 'Dev Tools',
-    year: '2023',
+    year: '2024',
     demoUrl: '#',
     githubUrl: '#',
     gradient: 'linear-gradient(135deg, #7c3aed, #00f0ff)',
-    images: ['/images/projects/devflow1.jpg', '/images/projects/devflow2.jpg', '/images/projects/devflow3.jpg'],
+    images: ['/devflow1.jpg', '/devflow2.jpg', '/devflow3.jpg'],
+  },
+  {
+    id: 6,
+    title: 'VisualizeAI',
+    description: 'Interactive data visualization dashboard with 3D charts and AI-powered insights.',
+    longDescription: `History of VisualizeAI
+
+VisualizeAI was built to transform how data analysts and product teams interact with complex datasets. By combining immersive 3D visualizations with AI-driven insights, the platform makes data exploration intuitive and actionable.
+
+Users can import data from various sources (CSV, JSON, API), create interactive 3D charts using Three.js and D3.js, and receive automated insights powered by OpenAI API. The platform also supports real-time collaboration, chart export, and ready-to-use dashboard templates.
+
+Designed for high performance even with millions of data rows, VisualizeAI is the go-to solution for modern data visualization needs.`,
+    tech: ['React', 'Three.js', 'Python', 'FastAPI', 'OpenAI API', 'D3.js', 'PostgreSQL'],
+    category: 'Data Visualization',
+    year: '2025',
+    demoUrl: '#',
+    githubUrl: '#',
+    gradient: 'linear-gradient(135deg, #ff6b00, #ff0080)',
+    images: ['/viz1.jpg', '/viz2.jpg', '/viz3.jpg'],
   },
 ]
 
@@ -111,7 +175,7 @@ export default function Projects() {
         background: '#0a0a0a'
       }}
     >
-      {/* Background decorative */}
+      {/* Background decorative - Biru Muda */}
       <motion.div
         initial={{ opacity: 0, scale: 0.8 }}
         animate={inView ? { opacity: 0.15, scale: 1 } : {}}
@@ -123,7 +187,7 @@ export default function Projects() {
           transform: 'translateX(-50%)',
           width: '600px',
           height: '600px',
-          background: 'radial-gradient(circle, #E67E22, transparent)',
+          background: 'radial-gradient(circle, #00B4D8, transparent)',
           borderRadius: '50%',
           filter: 'blur(80px)',
           pointerEvents: 'none'
@@ -148,7 +212,7 @@ export default function Projects() {
             transition={{ duration: 0.6, delay: 0.2 }}
             style={{
               height: '3px',
-              background: '#E67E22',
+              background: '#00B4D8',
               margin: '0 auto 20px',
               borderRadius: '2px'
             }}
@@ -164,7 +228,7 @@ export default function Projects() {
               marginBottom: '16px'
             }}
           >
-            Featured <span style={{ color: '#E67E22' }}>Projects</span>
+            Featured <span style={{ color: '#00B4D8' }}>Projects</span>
           </motion.h2>
           
           <motion.p
@@ -179,7 +243,7 @@ export default function Projects() {
               lineHeight: 1.6
             }}
           >
-            Beberapa project yang telah saya kerjakan. Klik pada card untuk melihat detail lengkap.
+            Featured projects. Click any card to explore further.
           </motion.p>
         </motion.div>
 
@@ -205,7 +269,7 @@ export default function Projects() {
                 cursor: 'pointer',
                 position: 'relative',
                 background: 'rgba(255,255,255,0.03)',
-                border: '1px solid rgba(230,126,34,0.12)',
+                border: '1px solid rgba(0,180,216,0.12)',
                 borderRadius: '20px',
                 padding: '28px',
                 overflow: 'hidden',
@@ -240,11 +304,11 @@ export default function Projects() {
                 <div style={{ display: 'flex', gap: '8px', flexWrap: 'wrap' }}>
                   <span style={{
                     padding: '4px 12px',
-                    background: 'rgba(230,126,34,0.1)',
-                    border: '1px solid rgba(230,126,34,0.3)',
+                    background: 'rgba(0,180,216,0.1)',
+                    border: '1px solid rgba(0,180,216,0.3)',
                     borderRadius: '100px',
                     fontSize: '11px',
-                    color: '#E67E22',
+                    color: '#00B4D8',
                     fontFamily: 'monospace',
                   }}>
                     {project.category}
@@ -270,14 +334,14 @@ export default function Projects() {
                     height: '36px',
                     borderRadius: '50%',
                     background: 'rgba(255,255,255,0.05)',
-                    border: '1px solid rgba(230,126,34,0.2)',
+                    border: '1px solid rgba(0,180,216,0.2)',
                     display: 'flex',
                     alignItems: 'center',
                     justifyContent: 'center',
                     transition: 'all 0.2s ease',
                   }}
                 >
-                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#E67E22" strokeWidth="2">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00B4D8" strokeWidth="2">
                     <line x1="7" y1="17" x2="17" y2="7"/>
                     <polyline points="7 7 17 7 17 17"/>
                   </svg>
@@ -326,11 +390,11 @@ export default function Projects() {
                 {project.tech.length > 4 && (
                   <span style={{
                     padding: '4px 10px',
-                    background: 'rgba(230,126,34,0.08)',
-                    border: '1px solid rgba(230,126,34,0.2)',
+                    background: 'rgba(0,180,216,0.08)',
+                    border: '1px solid rgba(0,180,216,0.2)',
                     borderRadius: '6px',
                     fontSize: '10px',
-                    color: '#E67E22',
+                    color: '#00B4D8',
                     fontFamily: 'monospace',
                   }}>
                     +{project.tech.length - 4}
@@ -345,7 +409,7 @@ export default function Projects() {
                 transition={{ duration: 0.3, delay: 0.5 + idx * 0.1 }}
                 style={{
                   fontSize: '10px',
-                  color: 'rgba(230,126,34,0.5)',
+                  color: 'rgba(0,180,216,0.5)',
                   fontFamily: 'monospace',
                   letterSpacing: '0.05em',
                   marginTop: '12px',

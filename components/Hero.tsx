@@ -330,7 +330,7 @@ export default function Hero() {
                   cursor: 'pointer',
                 }}
               >
-                View Projects →
+                View Projects 
               </motion.a>
               <motion.a
                 href="#contact"

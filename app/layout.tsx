@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import './globals.css'
+import MusicPlayer from '@/components/MusicPlayer'
 
 export const metadata: Metadata = {
   title: 'Satrio Dwi Ramadhan — Full-Stack Engineer',
@@ -20,7 +21,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        {children}
+        <MusicPlayer />
+      </body>
     </html>
   )
 }
