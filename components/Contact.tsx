@@ -342,7 +342,6 @@ export default function Contact() {
                 gap: '8px',
               }}>
                 Contact
-                <span style={{ fontSize: '1.2rem' }}>→</span>
               </div>
             </motion.a>
           ))}
